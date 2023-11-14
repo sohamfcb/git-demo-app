@@ -21,9 +21,12 @@ st.subheader("DSA")
 st.sidebar.title('Menu')
 
 st.sidebar.markdown('''
--Home
--About
--Checkout
--Career Section
--Login Section
+- Home
+- About
+- Checkout
+- Career Section
+- Login 
 ''')
+
+st.sidebar.selectbox('Select One',['Teacher','Student'])
+st.sidebar.button('Select')
