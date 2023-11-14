@@ -24,4 +24,6 @@ st.sidebar.markdown('''
 -Home
 -About
 -Checkout
+-Career Section
+-Login Section
 ''')
